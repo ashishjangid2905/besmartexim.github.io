@@ -66,7 +66,7 @@ header{
     display: inline-block;
     position: absolute;
     right: -1em;
-    background: url("/icons/dropdown.png") no-repeat;
+    background: url("icons/dropdown.png") no-repeat;
     background-size: 1em;
     width: 1em;
     height: 1em;
@@ -194,7 +194,7 @@ header{
 
 .intro_part_a::after{
     content: '';
-    /* background: url('/Image/pexels-olia-danilevich-8145335.jpg') no-repeat center center/cover; */
+    /* background: url('Image/pexels-olia-danilevich-8145335.jpg') no-repeat center center/cover; */
     position: absolute;
     width: 66.5em;
     height: 30em;
@@ -206,10 +206,10 @@ header{
 
 /* changing backgroud image animation */
 @keyframes myanime {
-    0%      {background: url('/Image/pexels-olia-danilevich-8145335.jpg') no-repeat center center/cover;opacity: 0.4;}
-    50%     {background: url('/Image/pexels-kindel-media-7688336.jpg') no-repeat center center/cover;opacity: 0.4;}
-    75%     {background: url('/Image/pexels-kindel-media-7688336.jpg') no-repeat center center/cover; opacity: 0.4;}
-    100%    {background: url('/Image/pexels-olia-danilevich-8145335.jpg') no-repeat center center/cover; opacity: 0.4;}
+    0%      {background: url('Image/pexels-olia-danilevich-8145335.jpg') no-repeat center center/cover;opacity: 0.4;}
+    50%     {background: url('Image/pexels-kindel-media-7688336.jpg') no-repeat center center/cover;opacity: 0.4;}
+    75%     {background: url('Image/pexels-kindel-media-7688336.jpg') no-repeat center center/cover; opacity: 0.4;}
+    100%    {background: url('Image/pexels-olia-danilevich-8145335.jpg') no-repeat center center/cover; opacity: 0.4;}
 }
 
 .intro_part_a_elements{
