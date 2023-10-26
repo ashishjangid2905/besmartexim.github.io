@@ -1,0 +1,14 @@
+{
+  "name": "be_smart_exim",
+  "version": "1.0.0",
+  "description": "This is Be Smart Exim website package",
+  "main": "index1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ashish Jangid",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

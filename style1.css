@@ -207,13 +207,13 @@ td button:hover{
     display: flex;
     width: 100%;
     align-items: center;
-    justify-content: center;
     background: url('Image/banner1.jpeg') no-repeat no-repeat center/cover;
-    height: 20em;
+    height: 15em;
+    padding-left: 2em;
 }
 
 .container_sol .bannerCont .banner_title{
-    font-size: 3em;
+    font-size: 2em;
     font-weight: 600;
     color: #ffffff;
 }
@@ -221,7 +221,7 @@ td button:hover{
 .container_sol .sol_cot{
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
     align-items: center;
     justify-content: center;
 }
@@ -232,7 +232,7 @@ td button:hover{
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding: 2em 0em;
+    padding: 1em 0em 0em;
 }
 
 .sol_cot .inner_cot .sol_head{
@@ -243,37 +243,38 @@ td button:hover{
 }
 
 .inner_cot .sol_head .titleSol{
-    font-size: 3em;
+    font-size: 2em;
 }
 
 .inner_cot .sol_head p{
-    font-size: 1.5em;
+    font-size: 1em;
     text-align: center;
     margin: 1em 0em;
     color: #494949;
 }
 
 .inner_cot .titleDes p{
-    font-size: 2em;
+    font-size: 1.1em;
     color: #172541;
 }
 
 .inner_cot .sol_item{
     display: flex;
+    flex-direction: row;
     width: 100%;
     align-items: center;
     justify-content: space-evenly;
-    padding: 2em 0em;
-    height: 35em;
+    padding: 1em 0em 0em;
+    flex-wrap: wrap;
 }
 
 .inner_cot .sol_item .item_infoBox{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    width: 30%;
-    height: 30em;
+    padding: 1em;
+    width: 33.3333%;
+    height: 500px;
 }
 
 .item_infoBox figure{
@@ -281,16 +282,36 @@ td button:hover{
     width: 100%;
     align-items: center;
     justify-content: center;
+    height: 300px;
+    border: 5px solid #efefef9d;
     overflow: hidden;
+    margin-bottom: 1em;
+    border-radius: 10px;
+    box-shadow: -5px 5px 10px rgba(35, 31, 32, 0.182);
 }
 
 .item_infoBox figure img{
     width: 100%;
-    transition: 0.4s ease;
-    transform-origin: 50% 50%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s ease;
 }
 
 .item_infoBox figure img:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
     width: 100%;
+}
+
+.item_infoBox .item_infoCont{
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.item_infoBox h4{
+    font-size: 1em;
+    line-height: 30px;
+}
+.item_infoBox p{
+    font-size: 0.9em;
+    line-height: 30px;
 }
